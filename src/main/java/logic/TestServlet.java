@@ -28,5 +28,29 @@ public class TestServlet extends HttpServlet {
                         "<h1>TestServlet</h1>\n" +
                         "<p>Simple servlet for testing.</p>\n" +
                         "</body></html>");
+
+        System.out.println(request.getParameter(""));
+    }
+
+    public void doPost(HttpServletRequest request,
+                      HttpServletResponse response) throws
+            ServletException, IOException {
+//        response.setContentType("text/html");
+//        PrintWriter out = response.getWriter();
+//        out.println
+//                ("<!DOCTYPE html>\n" +
+//                        "<html>\n" +
+//                        "<head><title>A TestServlet Servlet</title></head>\n" +
+//                        "<body bgcolor=\"#fdf5e6\">\n" +
+//                        "<h1>TestServlet</h1>\n" +
+//                        "<p>Simple servlet for testing.</p>\n" +
+//                        "</body></html>");
+
+        System.out.println(request.getParameter("login"));
+        System.out.println(request.getParameter("password"));
+        System.out.println(request.getParameter("email"));
+        System.out.println(request.getParameter("named"));
+        System.out.println(request.getParameter("surname"));
+        System.out.println(request.getParameter("phone"));
     }
 }
