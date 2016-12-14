@@ -27,7 +27,7 @@
 
     </dependencies>
     <build>
-        <finalName>testMaven_WEB</finalName>
+        <finalName>JAVA_EE_example</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
