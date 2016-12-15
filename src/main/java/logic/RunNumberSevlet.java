@@ -1,6 +1,6 @@
 package logic;
 
-import bean.NumberBean;
+import domain.NumberBean;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

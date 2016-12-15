@@ -1,4 +1,4 @@
-package bean;
+package domain;
 
 /**
  * User:Anton_Iehorov

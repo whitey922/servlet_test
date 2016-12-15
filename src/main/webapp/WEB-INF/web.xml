@@ -4,12 +4,4 @@
     <listener>
         <listener-class>listener.ServletContext</listener-class>
     </listener>
-    <servlet>
-          <servlet-name>test1</servlet-name>
-          <servlet-class>logic.TestServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>test1</servlet-name>
-        <url-pattern>/test1</url-pattern>
-    </servlet-mapping>
 </web-app>
